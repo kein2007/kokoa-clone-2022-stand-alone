@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome To Kokoa Talk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>5G Wifi</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:33</span>
+      </div>
+      <div class="status-bar__column">
+        <span>99%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
+      <p class="welcome-header__text">
+        If you have a Kokoa Account, log in with your email or phone number.
+      </p>
+    </header>
+
+    <form action="friends.html" method="get" id="login-form">
+      <!--methodsms post 방식과 get 방식이 있음. get은 url에 내용이 보임.-->
+      <input type="text" placeholder="E-mail or Phone number" />
+      <input type="password" placeholder="Password" />
+      <input type="submit" value="Log In" />
+      <a href="#">Find Kokoa Account or Password</a>
+    </form>
+    <div id="no-mobile">
+      <span>Your Screen is too big ㅠㅠ</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/a9f8820035.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
