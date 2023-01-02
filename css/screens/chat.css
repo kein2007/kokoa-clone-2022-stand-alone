@@ -33,6 +33,30 @@
   }
 }
 
+@keyframes RightIn {
+  from {
+    transform: translateX(300px);
+    opacity: 0;
+  }
+
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+@keyframes LeftIn {
+  from {
+    transform: translateX(-300px);
+    opacity: 0;
+  }
+
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
 .main-chat {
   margin-top: 100px;
   display: flex;
@@ -54,6 +78,7 @@
   width: 100%;
   display: flex;
   margin-bottom: 25px;
+  animation: LeftIn 0.3s linear;
 }
 
 .message-row img {
@@ -90,6 +115,7 @@
 
 .message-row--own {
   justify-content: flex-end;
+  animation: RightIn 0.3s linear;
 }
 
 .message-row--own .message__bubble {
