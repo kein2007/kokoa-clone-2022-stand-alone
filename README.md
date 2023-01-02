@@ -80,3 +80,9 @@
   animation-delay: 1s; 애니메이션시작지연
   visibility: hidden; 화면 감춤 (아래 레이어 사용가능하게됨)
   will-change: transform; 엘리먼트에 무엇이 바뀔 것인지 미리 알려주는 함수(예시는 transform). 그래픽카드로 애니메이션 가속
+
+- Git hub 웹 퍼블리싱
+  프론트 앤드만 지원, 퍼블릭 저장소이어야만 한다.
+  Branch를 무조건 "gh-pages"로 만든다.
+  퍼블리쉬 브런치 버튼 누른다.
+  URL=id.github.io/저장소명
